@@ -1,7 +1,6 @@
 const cdp = require('chrome-remote-interface');
 const fs = require('fs');
 
-
 cdp({
         host: 'localhost',
         port: 9222
